@@ -1,0 +1,19 @@
+{
+  "name": "@qualified/codewars-missions",
+  "version": "1.0.0",
+  "description": "Codewars Missions",
+  "main": "app.js",
+  "repository": "https://github.com/qualified/codewars-missions",
+  "author": "@qualified",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "engines": {
+    "node": ">=14"
+  }
+}
