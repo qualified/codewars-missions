@@ -1,0 +1,8 @@
+{
+  "printWidth": 70,
+  "quoteProps": "consistent",
+  "bracketSpacing": false,
+  "arrowParens": "avoid",
+  "singleAttributePerLine": true
+}
+

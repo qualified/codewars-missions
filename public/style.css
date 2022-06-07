@@ -1,3 +1,25 @@
 body {
   margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
+}
+
+.stacked-bar-graph {
+  border: 1px solid black;
+  font-size: 0.8em;
+  display: flex;
+}
+.stacked-bar {
+  border-left: 1px solid black;
+  white-space: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  background: #e75062;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.stacked-bar:first-child {
+  border-left: 0;
 }
